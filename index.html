@@ -10,7 +10,6 @@
     <form action="inserisci.php" method="post">
         <label >Codice attore:</label><br>
         <input type="number"  name="codice"><br>
-        <br>
         <label>Nome Attore:<label><br>
         <input type="text" name="nome"><br>
         <label >Anno Nascita:</label><br>
@@ -19,14 +18,24 @@
         <input type="text"  name="nazionalita"><br>
         <br>
         <input style="background-color:green;" type="submit"><br>
-        </form>  
-
+        </form> 
+        
         <h1>RIMUOVI PROIEZIONE:</h1>
         <form action="rimuovi.php" method="post">
             <label >Codice proiezione:</label><br>
             <input type="number"  name="codiceProiezione"><br>
             <br>
             <input style="background-color:red;" type="submit"><br>
+        </form>
+
+        <h1>AGGIORNA VOTO RECENSIONE:</h1>
+        <form action="aggiorna.php" method="post">
+            <label >Codice voto:</label><br>
+            <input type="number"  name="codiceVoto"><br>
+            <label >Nuovo voto:</label><br>
+            <input type="number"  name="nuovoVoto"><br>
+            <input style="background-color:blue;" type="submit"><br>
+            <br>
         </form>
 
         
