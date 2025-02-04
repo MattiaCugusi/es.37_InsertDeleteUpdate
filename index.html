@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>INSERISCI ATTORE:</h1>
     <form action="inserisci.php" method="post">
-        <h1>ATTORE:</h1>
         <label >Codice attore:</label><br>
         <input type="number"  name="codice"><br>
         <br>
@@ -17,8 +17,20 @@
         <input type="number"  name="data"><br>
         <label>Nazionalita':<label><br>
         <input type="text"  name="nazionalita"><br>
+        <br>
+        <input style="background-color:green;" type="submit"><br>
+        </form>  
+
+        <h1>RIMUOVI PROIEZIONE:</h1>
+        <form action="rimuovi.php" method="post">
+            <label >Codice proiezione:</label><br>
+            <input type="number"  name="codiceProiezione"><br>
+            <br>
+            <input style="background-color:red;" type="submit"><br>
+        </form>
+
         
-        <input type="submit"><br>
-    
+
+
 </body>
 </html>
